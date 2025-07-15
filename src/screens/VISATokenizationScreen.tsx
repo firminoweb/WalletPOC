@@ -182,12 +182,10 @@ const VISATokenizationScreen: React.FC<Props> = ({navigation}) => {
           <View style={styles.header}>
             <Text style={styles.title}>VISA Device Tokenization</Text>
             <Text style={styles.subtitle}>POC - Certificação VISA Brasil via Celcoin</Text>
-            <View style={styles.visaBadge}>
-              <Text style={styles.visaBadgeText}>VISA COMPLIANT</Text>
-            </View>
           </View>
 
           {/* Device Status */}
+          {/*
           <View style={styles.deviceStatus}>
             <Text style={styles.sectionTitle}>Status do Dispositivo</Text>
             <View style={styles.statusGrid}>
@@ -208,6 +206,7 @@ const VISATokenizationScreen: React.FC<Props> = ({navigation}) => {
               </View>
             </View>
           </View>
+          */}
 
           {/* Form */}
           <View style={styles.form}>
@@ -270,6 +269,7 @@ const VISATokenizationScreen: React.FC<Props> = ({navigation}) => {
           </View>
 
           {/* VISA Requirements */}
+          {/*
           <View style={styles.requirements}>
             <Text style={styles.sectionTitle}>Requisitos VISA Brasil</Text>
             <View style={styles.requirementsList}>
@@ -291,6 +291,7 @@ const VISATokenizationScreen: React.FC<Props> = ({navigation}) => {
               </View>
             </View>
           </View>
+          */}
 
           {/* Loading State */}
           {isLoading && (
@@ -335,6 +336,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#e5e7eb',
     alignItems: 'center',
+    marginBottom: 20
   },
   title: {
     fontSize: 24,
@@ -345,7 +347,6 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 14,
     color: '#6b7280',
-    marginBottom: 12,
   },
   visaBadge: {
     backgroundColor: '#1434a4',

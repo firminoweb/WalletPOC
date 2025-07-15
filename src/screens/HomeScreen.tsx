@@ -98,12 +98,14 @@ const HomeScreen: React.FC<Props> = ({navigation}) => {
         </TouchableOpacity>
 
         {/* Botão secundário para método tradicional */}
+        {/*
         <TouchableOpacity
           style={styles.addButton}
           onPress={() => navigation.navigate('AddCard')}
           activeOpacity={0.8}>
           <Text style={styles.addButtonText}>+ Adicionar Cartão (Tradicional)</Text>
         </TouchableOpacity>
+        */}
       </View>
 
       {/* Footer com informações da POC */}
